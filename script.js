@@ -1,8 +1,6 @@
 const button = document.querySelector('button');
 const inputtext = document.querySelector('.input-items');
 const lists = document.querySelector('.lists');
-const dot = document.querySelector('.dot');
-
 
 button.addEventListener('click', () => {
     createItems();
@@ -119,9 +117,4 @@ function getItems() {
 }
 
 getItems();
-
-dot.addEventListener('click', () => {
-    // refresh page
-    location.reload();
-})
 
